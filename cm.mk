@@ -14,10 +14,10 @@
 
 $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common BS stuff.
+$(call inherit-product, vendor/beanstalk/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_lettuce
+PRODUCT_NAME := bs_lettuce
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := lettuce
 
